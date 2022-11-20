@@ -20,8 +20,7 @@ constructor(props){
         if (id == "lNameForm") {
           this.setState({ lastname: e.target.value });
         }
-        this.state.firstname.current.value = ''
-        this.state.lastname.current.value = ''
+        
     }
   //Create request here
   createRequest = (fname,lname) => {
